@@ -11,6 +11,6 @@ set(SOURCE_FILES
 
 add_library(${PROJECT_NAME} STATIC ${SOURCE_FILES})
 
-target_link_libraries(${PROJECT_NAME} glad glfw)
+target_link_libraries(${PROJECT_NAME} glad glfw glm)
 
 target_include_directories(${PROJECT_NAME} PUBLIC ./include)
